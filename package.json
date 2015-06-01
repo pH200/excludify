@@ -1,0 +1,24 @@
+{
+  "name": "excludify",
+  "version": "1.0.0",
+  "description": "Ignore require calls in browserify modules",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/*.js"
+  },
+  "repository": "pH200/excludify",
+  "keywords": [
+    "browserify",
+    "ignore",
+    "transform"
+  ],
+  "dependencies": {
+    "browserify-transform-tools": "^1.4.2",
+    "wildcard": "^1.1.2"
+  },
+  "devDependencies": {
+    "tape": "*"
+  },
+  "author": "pH200",
+  "license": "MIT"
+}
